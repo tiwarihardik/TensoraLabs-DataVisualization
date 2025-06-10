@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd 
 
 st.title("TensoraLabs - Data Visualization")
-st.write("You can visualize your data and make key inferences from it here.")
+st.write("Visualize your data and make key inferences from it.")
 
 dataset = st.file_uploader("CSV or Excel File: ", type=['csv', 'xlsx'])
 
